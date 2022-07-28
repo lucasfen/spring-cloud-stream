@@ -1,0 +1,20 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        kafka-test:
+
+
+      binders:
+        kafka1:
+          type: kafka
+          environment:
+            spring:
+              cloud:
+                stream:
+                  kafka
+
+
+
+
+
